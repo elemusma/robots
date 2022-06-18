@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import Card from './Card';
+// import Cardlist from './Cardlist';
+// import Hello from './Hello.js';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
+// import { robots } from './robots';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <Hello greeting={'Hello Ninja' + ' another'} /> */}
+    {/* <Cardlist robots={robots} /> */}
     <App />
   </React.StrictMode>
 );
